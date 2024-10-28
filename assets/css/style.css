@@ -254,7 +254,8 @@ footer a {
         display: inline-block;
         margin: 0;
         justify-items: center;
-        
+        width: 150px;
+                
     }
 
     header div p {
