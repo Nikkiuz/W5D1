@@ -285,24 +285,34 @@ footer a {
 
     iframe{
         display: inline-block ;
-        width: 35em;
-        height: 10em;
-        
+        width: 45%;
+        height: 15em;
+        margin: auto;
+      
     }
 
     section{
-        text-align: center;
         display: inline-block;
-        width: 35em;
-        height: 10em ;
+        width: 45%;
+        height: 15em ;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-bottom: 2em;
+        border-radius: 20px;
         
     }
+
+    section h2 {
+        font-size: 1.3em;
+        text-transform: capitalize;
+   }
 
     aside div {
         display: inline-block;
         width: 33%;
     }
-        
+    
+    
     
 } 
 
