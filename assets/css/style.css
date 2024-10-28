@@ -101,7 +101,7 @@ code {
 }
 iframe {
     width: 100%;
-    height: auto;
+    height: 8.5em;
     margin-bottom: 2em;
     border-radius: 20px;
 }
@@ -189,10 +189,7 @@ footer a {
 
 @media screen and (min-width: 576px)  { 
     
-    body{
-        background-repeat: repeat;
-    }
-    
+       
     header {
         margin-bottom: 1em;
         padding: 1.5em 1em;
@@ -210,7 +207,6 @@ footer a {
     header ul li { 
         display: inline-block;
         font-weight: 600;
-
 
     }
 
@@ -247,7 +243,66 @@ footer a {
 
 @media screen and (min-width: 768px)  { 
 
-    
+    header div{
+        height: 2em;
+        text-align: left;
+        justify-content: center;
+        
+    }
+
+    header img{
+        display: inline-block;
+        margin: 0;
+        justify-items: center;
+        
+    }
+
+    header div p {
+        margin-bottom: 0px;
+        
+    }
+
+    header ul {
+        text-align: end;
+        justify-content: center;
+        margin: 0;
+        justify-items: center;
+            
+        
+    }
+
+    header ul li { 
+        display: inline-block;
+        font-size: 1.3em;
+        margin-left: 7.5px;
+        margin-right: 30px;
+       
+    }
+
+    table{
+        width: 70%;
+    }
+
+    iframe{
+        display: inline-block ;
+        width: 35em;
+        height: 10em;
+        
+    }
+
+    section{
+        text-align: center;
+        display: inline-block;
+        width: 35em;
+        height: 10em ;
+        
+    }
+
+    aside div {
+        display: inline-block;
+        width: 33%;
+    }
+        
     
 } 
 
